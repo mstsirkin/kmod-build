@@ -1,6 +1,6 @@
 ---
 name: kmod-build
-description: Fast in-tree kernel module rebuild against installed kernel-devel. Use when you need to rebuild a kernel module (KVM, drivers, etc.) without doing a full kernel build. Handles GCC version mismatches, BTF tooling issues, multi-directory modules with M=, and trace header fixups.
+description: Fast in-tree kernel module rebuild against installed kernel-devel. Use when rebuilding a kernel module (KVM, drivers, etc.) without a full kernel build. Handles GCC version mismatches, BTF tooling issues, multi-directory modules with M=, and trace header fixups.
 allowed-tools: Shell
 metadata:
   author: Michael S. Tsirkin <mst@kernel.org>
